@@ -14,7 +14,7 @@ The script expects to have 2 files placed in benchmaster/Benchmaster
   - osdnodes.lst: a list of all OSD nodes in the cluster
 
 ### Configuration:
-There are two parameters you can edit in the top of the file.  These control test run time.  They are defaulted to values that should help ensure that the cache is overrun and that actual performance maximums are achieved.  
+There are two parameters you can edit in the top of the benchmaster.sh file.  These control test run time.  They are defaulted to values that should help ensure that the cache is overrun and that actual performance maximums are achieved.  
  ramptime=600
   - This is the ramp time in seconds allocated to each test where no results will be recorded.  This provides time for the device to warm up and not affect the outcome.
   
